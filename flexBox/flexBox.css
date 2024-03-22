@@ -5,7 +5,7 @@
 }
 
 .cabecera img{
-	height: 80px;
+	height: 150px;
 	width: auto;
 }
 
@@ -20,5 +20,65 @@
 	font-size: 20px;
 }
 
+.logo{
+	display: flex;
+	align-items: center;
+}
 
- 
+.inicio{
+	align-items: center;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.inicio h1{
+	font-size: 30px;
+}
+
+.inicio h2{
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.inicio span{
+	color: 	blue;
+}
+
+.botones{
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 15px	;
+	text-align: center;
+	cursor: pointer;
+}
+
+.dudas{
+	border: 1px solid;
+	background-color: blue;
+	color: white;
+	text-decoration:none;
+	font-weight:600;
+	font-size:20px;
+	color:#ffffff;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	background-color:#005BBB;
+}
+
+.info{
+	border: 1px solid;
+	background-color: blue;
+	color: white;
+	text-decoration:none;
+	font-weight:600;
+	font-size:20px;
+	color:#ffffff;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	background-color:#005BBB;
+}
+}
