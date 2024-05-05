@@ -1,0 +1,167 @@
+
+/* 1º parte */
+
+body{
+	color: #6E6E6E;
+}
+
+.seccion_inicio{
+	background-color: #D9D9D9;
+	height: 100vh;
+	padding: 0 100px;
+	gap: 200px;
+}
+
+.cabecera{
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.logo{
+	display: flex;
+	align-items: end;
+	color: #00B2E3;
+	font-size: 25px;
+}
+
+.logo strong{
+	color: #6E6E6E;
+}
+
+.menu ul{
+	display: flex;
+	gap: 50px;
+	font-size: 25px;
+}
+
+.menu a:hover{
+	color: #00B2E3;
+}
+
+.inicio{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 100px;
+	padding: 110px 0;
+}
+
+.titulo span{
+	color: #00B2E3;
+}
+
+.botones{
+	display: flex;
+	gap: 50px;
+	padding: 70px 0;
+	font-size: 25px;
+}
+
+.botones button{
+	background-color: #00B2E3;
+	border-radius: 20px;
+	padding: 20px;
+	color: white;
+}
+
+.titulo h1{
+	font-size: 75px;
+	font-weight: bold;
+}
+
+.titulo h2{
+	font-size: 30px;
+}
+
+
+
+
+
+/* 2º parte */
+
+.seccion_cursos{
+	height: 200vh;
+	padding: 100px;
+}
+
+.seccion_cursos h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: repeat(3, 300px);	
+	grid-template-rows: repeat(4, 300px);
+	gap: 70px;
+	justify-content: center;
+}
+
+.card{
+	display: flex;
+	align-items: end;
+	color: white;
+	padding: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.cards div:nth-child(1){
+	grid-column: span 2;
+	grid-row: span 2;
+	background-image: url(img/multiplataforma.png);
+}
+
+.cards div:nth-child(2){
+	grid-row: span 2;
+	background-image: url(img/social.png);
+}
+
+.cards div:nth-child(3){
+	grid-column: span 2;
+	background-image: url(img/finanzas.png);
+}
+
+.cards div:nth-child(4){
+	background-image: url(img/infantil.png);
+}
+
+.cards div:nth-child(5){
+	background-image: url(img/fisico.png);
+}
+
+.cards div:nth-child(6){
+	grid-column:span 2;
+	background-image: url(img/cocina.png);
+}
+
+
+
+
+
+/* 3º parte */
+
+.seccion_final{
+	background-color: #D9D9D9;
+	padding: 40px;
+}
+
+.seccion_final ul{
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+
+.seccion_final .palabras {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+  }
+
+.seccion_final p{
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
